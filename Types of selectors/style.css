@@ -1,0 +1,19 @@
+
+/*Descendant selector*/
+.div1 p{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif
+}
+/*Child selector*/
+.div1 > p{
+    color: olivedrab
+}
+/*Adjacent sibling selector*/
+div + p{
+    color: blue;
+    }
+    /*General sibling selector*/
+    .div1 ~ p{
+        color: blueviolet;
+        font-size: 20px;
+    }
